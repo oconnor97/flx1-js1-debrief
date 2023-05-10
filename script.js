@@ -32,7 +32,6 @@ switch (items) {
         break;
 }
 
-for (let i = 50; i <= 100; i++) {
-  console.log(i);
-}
 
+let ranNum = Math.floor((Math.random()* 50) + 50);
+console.log(ranNum);
