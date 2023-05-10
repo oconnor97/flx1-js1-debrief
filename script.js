@@ -1,5 +1,5 @@
 //GenBuzz 
-let myNumber = 60;
+let myNumber = 6;
 if(typeof myNumber != 'number'){
     console.log('This is not a number')
 }else if(myNumber % 3 === 0 && myNumber % 5 === 0){
@@ -11,6 +11,16 @@ if(typeof myNumber != 'number'){
 } else { 
     console.log(myNumber)
 }
+
+//ternary by ai
+
+let myNumb = 6;
+typeof myNumb !== 'number' ? console.log('This is not a number') :
+  myNumb % 3 === 0 && myNumb % 5 === 0 ? console.log('GenBuzz') :
+  myNumb % 3 === 0 ? console.log('Gen') :
+  myNumb % 5 === 0 ? console.log('Buzz') :
+  console.log(myNumb);
+
 
 //E-Commerce Item list
 let bItem = 'Shoes'
